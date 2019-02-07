@@ -20,5 +20,5 @@ std::string ZZ::getResponse() {
   @parameter: string response which will be inserted at the begining of this->response.
 */
 void ZZ::unshiftResponse(std::string response) {
-
+  this->response = response + this->response;
 }
