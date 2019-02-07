@@ -8,6 +8,7 @@ const int BUZZ_WORTHY = 5;
 Buzz::Buzz() 
 : ZZ() {
 
+    unshiftResponse("bu");
 }
 
 /*
