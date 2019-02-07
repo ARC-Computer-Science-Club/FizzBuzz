@@ -6,7 +6,7 @@
   @return: string representing the integer value.
 */
 std::string FizzBuzz::stringifier(int i) {
-  
+  return std::to_string(i);
 }
 
 /*
