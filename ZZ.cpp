@@ -4,7 +4,7 @@
   Constructor for ZZ class. Sets response to "zz".
 */
 ZZ::ZZ() {
-  
+  response = "zz";
 }
 
 /*
@@ -12,7 +12,6 @@ ZZ::ZZ() {
   @return: string of this->response.
 */
 std::string ZZ::getResponse() {
-
 }
 
 /*
