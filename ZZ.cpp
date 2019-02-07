@@ -12,6 +12,7 @@ ZZ::ZZ() {
   @return: string of this->response.
 */
 std::string ZZ::getResponse() {
+    return this->response;
 }
 
 /*
