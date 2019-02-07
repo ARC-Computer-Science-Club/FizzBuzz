@@ -5,9 +5,9 @@ const int FIZZ_WORTHY = 3;
   Contructor for Fizz class. This should set response to "Fizz".
   Uses the ZZ class to get the last two letters of "Fizz"
 */
-Fizz::Fizz() 
+Fizz::Fizz()
 : ZZ() {
-
+    unshiftResponse("Fi");
 }
 
 /*
@@ -16,5 +16,5 @@ Fizz::Fizz()
   @return: boolean value true if i is divisible by FIZZ_WORTHY else false.
 */
 bool Fizz::isWorthy(int i) {
-  
+
 }
