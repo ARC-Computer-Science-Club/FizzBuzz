@@ -15,7 +15,7 @@ Fizz::Fizz()
   @parameter: int i is the number we are comparing to FIZZ_WORTHY
   @return: boolean value true if i is divisible by FIZZ_WORTHY else false.
 */
-bool Fizz::isWorthy(int i) {
+bool Fizz::isWorthy(int i) { //Test
   if (i%FIZZ_WORTHY==0){
     return true;
   }else{
