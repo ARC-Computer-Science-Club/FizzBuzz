@@ -6,7 +6,7 @@
   @return: string representing the integer value.
 */
 std::string FizzBuzz::stringifier(int i) {
-  
+  return std::to_string(i);
 }
 
 /*
@@ -17,5 +17,11 @@ std::string FizzBuzz::stringifier(int i) {
    or if i is divisible by 3 and 5 return "FizzBuzz".
 */
 std::string FizzBuzz::evaluate(int i) {
-  
+  if(fizz.isWorthy(i) && buzz.isWorthy(i))
+    return "FizzBuzz";
+  if(fizz.isWorthy(i))
+    return "Fizz";
+  if(buzz.isWorthly(i))
+    return "Buzz";
+  return stringifier(i);
 }
