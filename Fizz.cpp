@@ -7,7 +7,7 @@ const int FIZZ_WORTHY = 3;
 */
 Fizz::Fizz()
 : ZZ() {
-
+    unshiftResponse("Fi");
 }
 
 /*
@@ -15,7 +15,7 @@ Fizz::Fizz()
   @parameter: int i is the number we are comparing to FIZZ_WORTHY
   @return: boolean value true if i is divisible by FIZZ_WORTHY else false.
 */
-bool Fizz::isWorthy(int i) { //Test
+bool Fizz::isWorthy(int i) {
   if (i%FIZZ_WORTHY==0){
     return true;
   }else{
