@@ -7,7 +7,7 @@ const int BUZZ_WORTHY = 5;
 */
 Buzz::Buzz() 
 : ZZ() {
-
+      unshiftResponse("Bu");
 }
 
 /*
@@ -16,5 +16,10 @@ Buzz::Buzz()
   @return: boolean value true if i is divisible by BUZZ_WORTHY else false.
 */
 bool Buzz::isWorthy(int i) {
-  
+  if(i%BUZZ_WORTHY!=0){
+      return false;
+
+  }else {
+      return true;
+  }
 }
